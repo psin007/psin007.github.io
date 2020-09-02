@@ -73,7 +73,7 @@ body {
     color: var(--white-1);
     line-height: var(--line-height-normal);
     background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, .2)),
-        url('./images/bg1.jpg');
+        url('./images/bg.jpg');
     overflow-x: hidden;
 }
 
@@ -190,7 +190,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: white;
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -228,6 +228,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn:focus {
     outline: none;
 }
+
 
 .btn::after {
     content: '';
@@ -278,7 +279,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: white;
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -388,7 +389,7 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--white);
+    background: white;
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
@@ -493,6 +494,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
+}
+
+div.myitem{
+    vertical-align:top;
+
+}
+
+.caption{
+    display: block;
 }
 
 @media(min-width: 901px) {
