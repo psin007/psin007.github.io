@@ -72,7 +72,7 @@ body {
     font-weight: 400;
     color: white;
     line-height: var(--line-height-normal);
-    background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, .3)),
+    background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, .4)),
         url('./images/bg.jpg');
     overflow-x: hidden;
 }
@@ -151,7 +151,7 @@ h2::after {
     content: '';
     display: block;
     height: 2px;
-    width: 10rem;
+    width: 15rem;
     background: var(--pink);
     margin: var(--gutter-small) 0;
 }
